@@ -14,7 +14,7 @@ export class AddUserForm extends Component {
         const { addUser } = this.props;
 
         e.preventDefault();
-        addUser({ ... this.state });
+        addUser({ ...this.state });
         this.setState({
             name: "",
             email: ","
