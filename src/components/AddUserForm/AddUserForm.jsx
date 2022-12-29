@@ -17,7 +17,7 @@ export class AddUserForm extends Component {
         addUser({ ...this.state });
         this.setState({
             name: "",
-            email: ","
+            email: "",
         })
     }
 
